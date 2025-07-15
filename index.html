@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body class="index-page">
+     </div>
+</nav>
+<div class="center-container">
+  <a href="bag.html">
+    <button id="index-buttonn" class="index-button">dont click this</button>
+  </a>
+</div>
+</body>
+</html>
+<script>
+  const button = document.getElementById("index-buttonn");
+
+  button.addEventListener("mouseover", () => {
+    button.textContent = "dont do it";
+  });
+
+  button.addEventListener("mouseout", () => {
+    button.textContent = "phat button";
+  });
+</script>
